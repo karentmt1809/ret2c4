@@ -11,8 +11,8 @@ import org.springframework.context.annotation.ComponentScan;
  */
 
 @SpringBootApplication
-@EntityScan(basePackages = {"tienda.catalogo.tienda.Model"})
-@ComponentScan(basePackages = {"tienda.catalogo.tienda"})
+// @EntityScan(basePackages = {"tienda.catalogo.tienda.Model"})
+// @ComponentScan(basePackages = {"tienda.catalogo.tienda"})
 public class TiendaApplication {
 
 	public static void main(String[] args) {
